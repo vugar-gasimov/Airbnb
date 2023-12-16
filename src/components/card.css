@@ -1,0 +1,22 @@
+.gray {
+  color: #918e9b;
+}
+.bold {
+  font-weight: bold;
+}
+.card--container {
+  width: 176px;
+  font-size: 0.75rem;
+}
+.card--img-container {
+}
+
+.card--img {
+  width: 100%;
+  border-radius: 9px;
+}
+
+.card--info-container {
+  display: flex;
+  align-items: center;
+}

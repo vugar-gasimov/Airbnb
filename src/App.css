@@ -28,6 +28,7 @@ header {
 .hero--title {
   font-size: 36px;
   font-weight: 600;
+  margin-bottom: 16px;
 }
 .hero--text {
   width: 320px;
