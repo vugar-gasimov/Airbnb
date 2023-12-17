@@ -1,11 +1,16 @@
 import Str from "../../public/images/Star.svg";
 import "./card.css";
 export default function Card(props) {
-  console.log(props.openSpots);
+  let badgeText;
+  if (props.openSpots === 0) {
+    badgeText = "SLOD OUT";
+  } else if (props.location === "Online") {
+    badgeText = "ONLINE";
+  }
   return (
     <div className="card--container">
       <div className="card--img-container">
-        <p className="card--text-img">SOLD OUT</p>
+        {badgeText && <p className="card--text-img">{badgeText}</p>}
         <img className="card--img" src={props.img} alt="Katie" />
       </div>
       <div className="card--info-container">

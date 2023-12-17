@@ -3,7 +3,6 @@ import Card from "./components/Card";
 // import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import Data from "./components/Data";
-console.log(Data);
 function App() {
   const cards = Data.map((card) => {
     return (
