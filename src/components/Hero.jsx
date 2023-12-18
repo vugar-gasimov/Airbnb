@@ -1,5 +1,5 @@
-import ImgOne from "../images/group-1.webp";
-import ImgTwo from "../images/group-2.webp";
+import ImgOne from "../../public/images/group-1.webp";
+import ImgTwo from "../../public/images/group-2.webp";
 const Hero = () => {
   return (
     <div className="hero--container">
